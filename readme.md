@@ -14,6 +14,7 @@ Functions
       an error if multiple or no nodes match this xpath.
   * `HtmlElement.one_cssselect` Select one node based on a css selector;
       return an error if multiple or no nodes match this xpath.
+* `digits(text)`: Extract the digits from some text.
 
 ## Running tests
 

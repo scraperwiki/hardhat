@@ -58,3 +58,11 @@ def _one_selector_func(selector_type):
 HtmlElement.one_xpath = _one_selector_func('xpath')
 HtmlElement.one_cssselect = _one_selector_func('cssselect')
 del(_one_selector_func)
+
+
+def digits(text):
+    'Extract the digits from the text.'
+    return filter(lambda letter: letter in '12534567890', unicode(text))
+
+# Postal codes
+# http://stackoverflow.com/questions/578406/what-is-the-ultimate-postal-code-and-zip-regex
