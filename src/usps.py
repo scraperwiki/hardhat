@@ -64,4 +64,4 @@ def lookup(address1, address2, city, state, zipcode):
         print url
         raise
 
-    return self._parse(handle.read())
+    return _parse(handle.read())
