@@ -43,19 +43,6 @@ def _parse(text):
 
     return out
 
-def contains_address(db, address1, address2, city, state, zipcode):
-    'Does the DumpTruck database (db) already contain the address in the usps table?'
-    params = [address1, address2, city, state, zipcode]
-    count = db.execute('''
-select count(*) from usps
-WHERE [Street Address]= ?
-  AND Hash = ?
-  AND City = ?
-  AND State = ?
-  AND [Zip Code] = ?
-''', params)[0]['count(*)']
-    return count > 0
-
 def lookup(address1, address2, city, state, zipcode):
     'Look up an address, and return the usps version.'
     address = {
