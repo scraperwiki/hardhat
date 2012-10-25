@@ -39,3 +39,22 @@ def randomsleep(mean = 8, sd = 4):
     seconds=normalvariate(mean, sd)
     if seconds>0:
         sleep(seconds)
+
+
+
+# Select one node from a css selector or xpath.
+from lxml.html import fromstring, HtmlElement
+def _one_selector_func(selector_type):
+    def _one_selector(self, selector):
+        results = getattr(self, selector_type)(selector)
+ 
+        if len(results) != 1:
+            msg = 'I expected one match for %s, but I found %d.'
+            raise ValueError(msg % (selector, len(results)))
+ 
+        return results[0]
+    return _one_selector
+
+HtmlElement.one_xpath = _one_selector_func('xpath')
+HtmlElement.one_cssselect = _one_selector_func('cssselect')
+del(_one_selector_func)
