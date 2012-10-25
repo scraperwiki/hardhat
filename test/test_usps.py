@@ -1,5 +1,6 @@
 import os
 import nose.tools as n
+from dumptruck import DumpTruck
 
 import usps
 
@@ -42,3 +43,65 @@ class TestParse:
 
     def test_not_recognized(self):
         self._('ZipLookupResultsAction!input.action?resultMode=0&companyName=&address1=26130+Birch+AVE&address2=&city=Ni%0Asswa&state=MN&urbanCode=&postalCode=&zip=56468', [])
+
+class Db:
+    def setup(self):
+        self.db = DumpTruck(dbname = 'test.db')
+        self.db.execute('''
+CREATE TABLE `usps` (
+  [Street Address] TEXT NOT NULL,
+  Hash TEXT NOT NULL,
+  City TEXT NOT NULL,
+  State TEXT NOT NULL,
+  [Zip Code] TEXT NOT NULL,
+  USPSstreetaddress1 TEXT NOT NULL,
+  USPSstreetaddress2 TEXT NOT NULL,
+  USPScity TEXT NOT NULL,
+  USPSstate TEXT NOT NULL,
+  USPSzip TEXT NOT NULL,
+  USPSzip4 TEXT NOT NULL,
+  USPSstatus TEXT NOT NULL,
+  UNIQUE([Street Address], Hash, City, State, [Zip Code])
+);
+''')
+
+    def teardown(self):
+        os.remove('test.db')
+
+class TestDoneness(Db):
+
+    def test_done(self):
+        self.db.execute('''
+INSERT INTO usps VALUES (
+  '565 Marshall AVE',
+  '',
+  'St Paul',
+  'MN',
+  '55102',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  'multiple matches'
+)''')
+        n.assert_true(usps.contains_address(self.db, '565 Marshall AVE', '', 'St Paul', 'MN', '55102'))
+
+    def test_not_done(self):
+        self.db.execute('''
+INSERT INTO usps VALUES (
+  '9001 Marshall AVE',
+  '',
+  'St Paul',
+  'MN',
+  '55102',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  'multiple matches'
+)''')
+        n.assert_false(usps.contains_address(self.db, '565 Marshall AVE', '', 'St Paul', 'MN', '55102'))

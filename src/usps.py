@@ -8,7 +8,6 @@ from urllib import urlencode
 from lxml.html import fromstring
 
 ADDRESS_LOOKUP_URL = 'https://tools.usps.com/go/ZipLookupResultsAction!input.action?'
-EXPECTED_KEYS = {'address1', 'address2', 'city', 'state', 'zip'}
 
 def _parse(text):
     'Give html text from the web page, extract the list of addresses.'
@@ -44,8 +43,9 @@ def _parse(text):
 
     return out
 
-def contains_address(db, address):
-    params = [address[u'Street Address'], address[u'Hash'], address[u'City'], address[u'State'], address[u'Zip Code']]
+def contains_address(db, address1, address2, city, state, zipcode):
+    'Does the DumpTruck database (db) already contain the address in the usps table?'
+    params = [address1, address2, city, state, zipcode]
     count = db.execute('''
 select count(*) from usps
 WHERE [Street Address]= ?
@@ -56,57 +56,25 @@ WHERE [Street Address]= ?
 ''', params)[0]['count(*)']
     return count > 0
 
-def check_and_format(address):
-    '''
-    `address` is a dictionary of the paramaters.
-    Validated it, then add the paramaters that are necessary for
-    the call to the USPS page.
-    '''
-
-    # Hack to deal with legacy code
-    address = {k: [v] for k, v in address.items()}
-
-    # Dunno why they come as lists
-    for k, v in address.items():
-        address[k] = v[0]
-
-    if set(address.keys()) == {'address1', 'city', 'state', 'zip'}:
-        address['address2'] = ''
-
-    if set(address.keys()) == EXPECTED_KEYS:
-        address.update({
-            "resultMode": 0,
-            "companyName": "",
-            "urbanCode": "",
-            "postalCode": "",
-        })
-    else:
-        raise ValueError(
-            'Your request has these extra keys: %s. '
-            'Your request is missing these keys: %s' % (
-                set(address.keys()).difference(EXPECTED_KEYS),
-                EXPECTED_KEYS.difference(set(address.keys()))
-            )
-        )
-    return address
-
-def do_request(address):
-    '''
-    `address` is a dictionary of paramaters for the USPS request.
-    Make the request, parse the output and return the json that
-    will be printed.
-    '''
-
+def lookup(address1, address2, city, state, zipcode):
+    'Look up an address, and return the usps version.'
+    address = {
+        "address1": address1,
+        "address2": address2,
+        "city": city,
+        "state": state,
+        "zipcode": zipcode,
+        "resultMode": 0,
+        "companyName": "",
+        "urbanCode": "",
+        "postalCode": "",
+    }
     url = ADDRESS_LOOKUP_URL + urlencode(address)
-    output = {'url': url, 'addresses': []}
-    while True:
-        try:
-            handle = urlopen(url)
-        except URLError:
-            randomsleep()
-        else:
-            text = handle.read()
-            break
 
+    try:
+        handle = urlopen(url)
+    except:
+        print url
+        raise
 
-    return output
+    return self._parse(handle.read())
