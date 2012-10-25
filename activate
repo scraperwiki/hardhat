@@ -1,0 +1,25 @@
+# Set path.
+OLD_PYTHONPATH=$PYTHONPATH
+
+# Add code directory to PYTHONPATH, adding a separating ':' if PYTHONPATH is already set.
+# See http://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html#tag_02_06_02
+export PYTHONPATH="$PWD/src${PYTHONPATH+:}${PYTHONPATH}"
+export TEST_PATH="$PWD/test"
+
+# Indicate that we've activated.
+OLD_PS1=$PS1
+PS1="[hardhat]$PS1"
+
+# Run nosetests in the appropriate directory.
+nosetests() {
+  (
+    cd "$TEST_PATH"
+    env nosetests $@
+  ) || return 1
+}
+
+deactivate () {
+  PS1=$OLD_PS1
+  export PYTHONPATH=$OLD_PYTHONPATH
+  unset -f deactivate
+}
