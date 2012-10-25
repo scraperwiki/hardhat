@@ -2,9 +2,14 @@
 import os
 import re
 from time import sleep
+from random import normalvariate
+
+# HTTP
 from urllib2 import urlopen
 from urllib import urlretrieve
 from urlparse import urljoin
+
+# HTML
 from lxml.html import fromstring
 
 def get(url, cachedir = '.'):
@@ -24,6 +29,13 @@ def get(url, cachedir = '.'):
     if not os.path.exists(local_file):
        print 'Downloading and saving %s' % url
        urlretrieve(url, filename = local_file)
-       sleep(1)
+       randomsleep(1, 0.5)
 
     return open(local_file).read()
+
+
+def randomsleep(mean = 8, sd = 4):
+    "Sleep for a random amount of time"
+    seconds=normalvariate(mean, sd)
+    if seconds>0:
+        sleep(seconds)
