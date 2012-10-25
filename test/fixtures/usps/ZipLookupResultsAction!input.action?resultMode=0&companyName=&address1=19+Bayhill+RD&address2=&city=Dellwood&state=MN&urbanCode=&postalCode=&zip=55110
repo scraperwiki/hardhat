@@ -1,0 +1,1102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+	
+	
+	
+
+
+	
+	
+
+
+	
+	
+
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>USPS.com&reg; - ZIP Code&#153; Lookup</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+
+  
+    
+  	
+<!--		-->
+	<link rel="stylesheet" href="/go/styles/usps.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/go/styles/quicktools.css" type="text/css" media="all" />
+	
+		
+	
+	<link rel="stylesheet" href="/go/styles/modal-fluid.css" type="text/css" media="all" />
+	
+	<link rel="stylesheet" href="/go/styles/tables.css" type="text/css" media="all" />
+	
+	<!--[if IE 6]>
+		<link rel="stylesheet" href="/go/styles/usps-ie7.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="/go/styles/usps-ie6.css" type="text/css" media="all" />
+			
+	<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="/go/styles/usps-ie7.css" type="text/css" media="all" />
+			
+	<![endif]-->
+	
+  <link rel="stylesheet" href="/go/styles/tools.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="/go/styles/tab-category.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="/go/styles/pagination.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="/go/styles/zip-lookup.css" type="text/css" media="all" />
+  <link rel="icon" href="/go/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/go/favicon.ico" type="image/x-icon" />
+    
+  <!--[if IE 6]>
+    <link rel="stylesheet" href="/go/styles/shop-ie6.css" type="text/css" media="all" />
+  <![endif]-->
+</head>
+<body id="zip-lookup-result">
+
+
+  <div id="page" class="section-tools layout-2col-B shadow-style-A tundra view_TBD">
+		
+
+
+
+
+	
+
+
+
+
+
+
+		<!-- Begin Header -->
+		<div class="hide-fromsighted">
+			
+			<a href="#quickToolStart">Skip To Quick Tools</a>
+			<a href="#navigationStart">Skip To Navigation</a>
+			
+			<a href="#navigationEnd">Skip to Main Content</a>
+		</div>
+        
+		
+        
+        	<div id="utility-bar">
+		
+        
+        	<div class="page-section clearfix OneLinkKeepLinks">
+				<div class="left">
+				
+					
+						
+
+<div id="nav-tool-multilingual" class="nav-tool">
+	<div class="right-border">
+		<h2>
+			<a class="anchor" tabindex="0" name="anchor-login" id="multiling-anchor">
+				English<span class="hide-fromsighted"> Use arrow key to access related widget.</span>
+
+			</a>
+		</h2>
+		
+		<div class="nav-window">
+			<div class="wrapper col_3">
+				<div class="background">
+					<div class="modal-insider"></div>
+					<div class="modal-corner-tl"></div>
+					<div class="modal-corner-tr"></div>
+					<div class="modal-corner-bl"></div>
+
+					<div class="modal-corner-br"></div>
+					<div class="modal-repeat-left"></div>
+					<div class="modal-repeat-right"></div>
+					<div class="modal-repeat-top"></div>
+					<div class="modal-repeat-bottom"></div>
+				</div>
+				
+				<div class="content">
+					<div class="multi-option">
+					
+						<a href="https://tools.usps.com/go/ZipLookupResultsAction!input?postalCode=&amp;state=MN&amp;address2=&amp;zip=55110&amp;address1=19+Bayhill+RD&amp;resultMode=0&amp;city=Dellwood&amp;urbanCode=&amp;companyName=" class="multi-link">English</a>
+
+					</div>
+					<div class="multi-option odd">
+						<a href="https://es-tools.usps.com/go/ZipLookupResultsAction!input?postalCode=&amp;state=MN&amp;address2=&amp;zip=55110&amp;address1=19+Bayhill+RD&amp;resultMode=0&amp;city=Dellwood&amp;urbanCode=&amp;companyName=" class="multi-link">Espa&ntilde;ol</a>
+					</div>
+					<div class="multi-option last">
+						<a href="https://zh-tools.usps.com/go/ZipLookupResultsAction!input?postalCode=&amp;state=MN&amp;address2=&amp;zip=55110&amp;address1=19+Bayhill+RD&amp;resultMode=0&amp;city=Dellwood&amp;urbanCode=&amp;companyName=" class="multi-link chinese"></a>
+					</div>
+					<!-- <div class="unreg clearfix inner"> -->
+
+				</div>
+				<!-- <div class="content"> -->
+			</div>
+			<!-- <div class="wrapper col_3"> -->
+			
+		</div>
+		<!-- <div class="nav-window"> -->
+		
+	</div>
+</div>
+					
+					
+				
+					<ul id="contact-list">
+						<li><a id="link-support" href="https://www.usps.com/customer-service/customer-service.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Header: CustService', 'WT.z_section','Home_Header', 'WT.z_link','CustomerService')">Customer Service</a></li>
+						<li><a id="link-mobile" href="https://www.usps.com/mobile/info.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Header: USPSMobile', 'WT.z_section','Home_Header', 'WT.z_link','USPSMobile')">USPS Mobile</a></li>
+						
+						<!-- <li class="last"><a href="http://www.usps.com/mobile/info.htm" id="link-mobile">USPS Mobile</a></li>-->
+                        
+					</ul>
+				</div>
+				
+				
+					<div id="global-header-cart" style="width: 0px;"></div>
+				
+				<div class="right">
+					<div class="nav-pipe"></div>
+					<div id="nav-tool-login" class="nav-tool">
+						
+						
+							
+
+
+
+
+
+
+
+
+	
+														
+		
+	
+	<h2><a id="anchor-login" href="https://reg.usps.com/entreg/LoginAction_input?app=UspsTools&amp;appURL=https%3A%2F%2Ftools.usps.com%2Fgo%2FZipLookupResultsAction%21input%3FresultMode%3D0%26companyName%3D%26address1%3D19%2BBayhill%2BRD%26address2%3D%26city%3DDellwood%26state%3DMN%26urbanCode%3D%26postalCode%3D%26zip%3D55110" tabindex="0" class="anchor">Register / Sign In<span class="hide-fromsighted"> Use arrow key to access related widget.</span></a></h2>
+	<div class="nav-window">
+		<div class="wrapper col_3">
+			<div class="background"><div class="modal-insider"></div><div class="modal-corner-tl"></div><div class="modal-corner-tr"></div><div class="modal-corner-bl"></div><div class="modal-corner-br"></div><div class="modal-repeat-left"></div><div class="modal-repeat-right"></div><div class="modal-repeat-top"></div><div class="modal-repeat-bottom"></div></div>
+			<div class="content">
+				<div class="unreg clearfix inner">
+					<div id="login-form-div">
+						<form id="login-form" name="loginForm" action="/go/LoginAction.action" method="post">
+							<input type="hidden" name="successUrl" value="https://tools.usps.com/go/ZipLookupResultsAction!input?resultMode=0&amp;companyName=&amp;address1=19+Bayhill+RD&amp;address2=&amp;city=Dellwood&amp;state=MN&amp;urbanCode=&amp;postalCode=&amp;zip=55110" id="successUrlHidden"/>
+							<input type="submit" id="btn-header-hidden-input-signin" value="submit" name="login" style="width: 0px;height: 0px;border: none" />
+							<label for="input-username" class="fontStyle9b">Username</label>
+							<div class="input-text-wrapper input-text-lg">
+								<span class="input-cap-left"></span>
+								<span class="input-field">
+									<input type="text" name="userName" maxlength="50" value="" id="input-username" class="text" autocomplete="off"/>
+								</span>
+								<span class="input-cap-right">
+								</span>
+							</div>
+							<label for="input-password" class="fontStyle9b">Password</label>
+							<div class="input-text-wrapper input-text-lg">
+								<span class="input-cap-left"></span>
+								<span class="input-field">
+									<input type="password" name="password" maxlength="50" id="input-password" class="text"/>
+								</span>
+								<span class="input-cap-right">
+								</span>
+							</div>
+							<p class="error hide" id="login-error-message">Username and password<br />must be entered</p>
+							<p class="hint fontStyle8">Hint: It's at least 7 characters long, including a letter and number.</p>
+							<div class="clearfix fontStyle9">
+								<div id="btn-signin-wrapper" class="left">
+									<div id="btn-signin-inner-wrapper">
+									
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+									
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+<span class="button-link button-link btn-reg btn-blue-reg" id="parent-id">
+	<span>
+		
+			<a class="buttons" href="#" id="btn-header-input-signin" target="_self">Sign In</a>
+		
+		
+	</span>
+</span>
+
+									</div>
+								</div>
+								
+																					
+									
+								
+								<a id="link-forgot" href="https://reg.usps.com/entreg/ForgotPasswordAction_input?app=UspsTools&amp;appURL=https%3A%2F%2Ftools.usps.com%2Fgo%2FZipLookupResultsAction%21input%3FresultMode%3D0%26companyName%3D%26address1%3D19%2BBayhill%2BRD%26address2%3D%26city%3DDellwood%26state%3DMN%26urbanCode%3D%26postalCode%3D%26zip%3D55110">Forgot your password?</a>
+							</div>
+						</form>
+
+
+
+
+					</div>
+					<div id="login-detail" class="fontStyle9">
+						<strong>Create a USPS.com account to...</strong>
+						<ul>
+							<li>print shipping labels.</li>
+							<li>request a Package Pickup&trade;.</li>
+							<li>buy stamps and shop.</li>
+							<li>manage PO Boxes.</li>
+							<li>print customs forms online.</li>
+							<li>file domestic insurance claims.</li>
+						</ul>
+						
+																			
+							
+						
+						<a id="sign-up-link" href="https://reg.usps.com/entreg/RegistrationAction_input?app=UspsTools&amp;appURL=https%3A%2F%2Ftools.usps.com%2Fgo%2FZipLookupResultsAction%21input%3FresultMode%3D0%26companyName%3D%26address1%3D19%2BBayhill%2BRD%26address2%3D%26city%3DDellwood%26state%3DMN%26urbanCode%3D%26postalCode%3D%26zip%3D55110">Sign Up Now &rsaquo;</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+						
+						
+					</div>
+					<div class="nav-pipe"></div>
+				</div>
+			</div>
+		</div>
+		<!-- End Header -->
+
+
+		
+        	
+        
+
+
+
+
+
+		<div id="header">
+			<div class="page-section">
+				<div class="clearfix">
+					<div class="left">
+						<h2>
+						<a id="link-logo" href="https://www.usps.com"><img src="/media/images/global/usps_logo.gif" alt="USPS.com home. The profile of an eagle's head adjoining the words United States Postal Service are the two elements that are combined to form the corporate signature." id="main-logo" /></a>
+						</h2>
+					</div>
+					
+                    
+                   		
+					
+<div class="head-search right position-relative">
+	<div id="search-form">
+		<form id="form-search-submit" name="search" action="/go/SearchAction.action" method="post">
+			<label for="search-text" class="hide-fromsighted">Search USPS.com or Track Packages</label>
+			<input type="text" id="search-text" autocomplete="off" name="searchText" class="default" value="Search USPS.com or Track Packages" onclick="javascript:dojo.byId('search-text').value='';"/><input type="image" id="search-btn" src="/media/images/global/blank.gif" alt="Process Search"  />
+		</form>
+
+
+
+
+	</div>
+</div>
+                   	
+				</div>
+			</div>
+		</div>
+
+		
+			
+		
+
+<div id="nav_qt_wrapper">
+	<div class="page-section">
+		<div class="clearfix">
+			<div id="quick-tools-container">
+					<div id="quick-tools" class="">
+							<h2><a href="#" name="quickToolStart" >Quick Tools</a></h2>
+
+							<div id="qt-wrapper">
+								<div id="qt-hdr-wrapper">
+									<h3>Always a Click Away
+										<div class="inner-title">Roll over the tools menu across the site to access quick, handy tools.</div>
+									</h3>
+								</div>
+								<ul id="qt-options">
+									</ul>
+								<div id="qt-cap"></div>
+							</div>
+						</div>
+			</div>
+			<div id="navigation-container">
+				
+					
+						
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<div id="navigation">
+							<a name="navigationStart"></a>
+							<div id="nav-cap-left" class="nav-cap"></div>
+							<ul class="clearfix" id="navigation-list">
+							
+								
+								
+								<li id="nav-ship" class="">
+									<h3><a id="nav-1" href="https://www.usps.com/ship/ship-a-package.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPckg')" rel="0">Ship a Package</a></h3>
+									<div class="dropdown">
+										<div class="wrapper">
+											<div class="list-wrapper">
+												<ul>
+													<li><a href="https://www.usps.com/shipping/label.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: PrintLabel', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPckg_PrintLabel')">Print a Label with Postage &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/shipping/carrierpickup/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: SchedPickup', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPckg_SchedPickup')">Schedule a Pickup &rsaquo;</a></li>
+													<li><a href="https://usps.com/get-mailing-shipping-supplies.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: OrderFreeBoxes', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPckg_OrderFreeBoxes')">Get Mailing & Shipping Supplies &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/calculateretailpostage/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: CalcPrice', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPackage_CalcPrice')">Calculate a Price &rsaquo;</a></li>
+													<li><a href="https://tools.usps.com/go/ZipLookupAction!input.action" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: LookupZIPCode', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPackage_LookupZIPCode')">Look Up a ZIP Code&#153; &rsaquo;</a></li>
+												</ul>
+												<h4>Get Help To:</h4>
+												<ul class="secondary">
+													<li><a href="https://www.usps.com/ship/service-chart.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: CompareServicesPrices', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPackage_CompareServicesPrices')">Compare Services &amp; Prices &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/ship/insurance-and-extra-services.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: InsureandExtraServices', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPackage_InsureandExtraServices')">Add Insurance &amp; Extra Services &rsaquo;</a></li>																																			
+													<li><a href="https://www.usps.com/ship/prepare-domestic-shipments.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: PrepDomShip', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPackage_PrepDomShip')">Prepare Domestic Shipments &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/ship/prepare-international-shipments.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: PrepInternationalShip', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPackage_PrepInternationalShip')">Prepare International Shipments &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/ship/file-insurance-claims.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: FileClaim', 'WT.z_section','Home_BlueBar', 'WT.z_link','ShipaPackage_FileClaim')">File an Insurance Claim &rsaquo;</a></li>
+												</ul>
+											</div>
+											<div class="nav-dd-cap"></div>
+										</div>
+									</div>
+								</li>
+								
+								
+
+								<li id="nav-send" class="">
+									<h3><a id="nav-2" href="https://www.usps.com/send/send-mail.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail', 'WT.z_section','Home_BlueBar', 'WT.z_link','SendMail')" rel="0">Send Mail</a></h3>
+									<div class="dropdown">
+										<div class="wrapper">
+											<div class="list-wrapper">
+												<ul>
+													<li><a href="https://www.usps.com/buy-stamps.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: BuyStamps', 'WT.z_section','Home_BlueBar', 'WT.z_link','SendMail_BuyStamps')">Buy Stamps &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/send/create-mail-and-postage.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: CreateCustPostage', 'WT.z_section','Home_BlueBar', 'WT.z_link','SendMail_CreateCustPostage')">Create Mail and Postage &rsaquo;</a></li>													
+													<li><a href="https://www.usps.com/calculateretailpostage/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: SendMail_CalcPrice', 'WT.z_section','Home_BlueBar', 'WT.z_link','SendMail_CalcPrice')">Calculate a Price &rsaquo;</a></li>
+													<li><a href="https://tools.usps.com/go/ZipLookupAction!input.action" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: LookupZIPCode', 'WT.z_section','Home_BlueBar', 'WT.z_link','SendMail_LookupZIPCode')">Look Up a ZIP Code&#153; &rsaquo;</a></li>
+												</ul>
+												<h4>Get Help To:</h4>
+												<ul class="secondary">
+													<li><a href="https://www.usps.com/send/service-chart.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: SendCompareServicesPrices', 'WT.z_section','Home_BlueBar', 'WT.z_link','SendMail_SendCompareServicesPrices')">Compare Services &amp; Prices &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/send/insurance-and-extra-services.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: ExtraServices', 'WT.z_section','Home_BlueBar', 'WT.z_link','SendMail_ExtraServices')">Mail with Extra Services &rsaquo;</a></li>													
+													<li><a href="https://www.usps.com/send/address-letter-cards.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: AddressLettersandCards', 'WT.z_section','Home_BlueBar', 'WT.z_link','SendMail_LettersandCards')">Address Letters &amp; Cards &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/send/prepare-international-shipments.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: PrepInternationalMail', 'WT.z_section','Home_BlueBar', 'WT.z_link','SendMail_PrepInternationalMail')">Prepare International Mail &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/send/design-mail-and-postage.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: DesignMailStamps', 'WT.z_section','Home_BlueBar', 'WT.z_link','SendMail_DesignMailStamps')">Design Mail &amp; Postage &rsaquo;</a></li>
+												</ul>
+											</div>
+											<div class="nav-dd-cap"></div>
+										</div>
+									</div>
+								</li>
+								
+								
+								
+								<li id="nav-manage" class="">
+									<h3><a id="nav-3" href="https://www.usps.com/manage/manage-your-mail.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail')" rel="0">Manage Your Mail</a></h3>
+									<div class="dropdown">
+										<div class="wrapper">
+											<div class="list-wrapper">
+												<ul>
+													<li><a href="https://tools.usps.com/go/TrackConfirmAction!input.action" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: TrackConfirm', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_TrackConfirm')">Track &amp; Confirm &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/locator/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: POLocator', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_POLocator')">Find Locations &rsaquo;</a></li>
+													<li><a href="https://moversguide.usps.com/" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: ChangeAddress', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_ChangeAddress')">Change Your Address &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/holdmail/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: HoldMail', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_HoldMail')">Hold Mail &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/manage/forward-mail.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: ForwardMail', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_ForwardMail')">Forward Mail &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/redelivery/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: ScheduleRedelivery', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_ScheduleRedelivery')">Schedule a Redelivery &rsaquo;</a></li>
+													
+
+												</ul>
+												<h4>Get Help To:</h4>
+												<ul class="secondary">
+													<li><a href="https://www.usps.com/manage/get-a-po-box.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: RentRenewPOBox', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_RentRenewPOBox')">Reserve or Renew a PO Box&#153; &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/manage/file-insurance-claims.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: FileClaim', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_FileClaim')">File an Insurance Claim &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/manage/research-delivery-options.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: DelivOptions', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_DelivOptions')">Research Delivery Options &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/manage/mail-for-deceased-people.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: MailforDeceased', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_MailforDeceased')">Manage Mail for the Deceased &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/manage/know-mailbox-guidelines.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: MailboxGuidelines', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_MailboxGuidelines')">Learn About Mailbox Guidelines &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/manage/free-product-samples.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: FreeProductSamples', 'WT.z_section','Home_BlueBar', 'WT.z_link','ManageYourMail_FreeProductSamples')">Learn About Free Product <br />Samples &rsaquo;</a></li>													
+												</ul>
+											</div>
+											<div class="nav-dd-cap"></div>
+										</div>
+									</div>
+								</li>
+								
+								
+								
+								<li id="nav-shop" class="">
+									<h3><a id="nav-4" href="https://www.usps.com/shop" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop', 'WT.z_section','Home_BlueBar', 'WT.z_link','Shop')" rel="0">Shop</a></h3>
+									<div class="dropdown">
+										<div class="wrapper">
+											<div class="list-wrapper">
+												<ul>												 
+													<li><a href="https://www.usps.com/buy-stamps.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: BuyStamps', 'WT.z_section','Home_BlueBar', 'WT.z_link','Shop_BuyStamps')">Buy Stamps &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/get-mailing-shipping-supplies.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: GetFreeFlatRateBoxes', 'WT.z_section','Home_BlueBar', 'WT.z_link','Shop_GetFreeFlatRateBoxes')">Get Mailing & Shipping Supplies &rsaquo;</a></li>
+													<li class="large"><a href="https://www.usps.com/order-pse.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: OrderPersonalizedStampedEnvelopes', 'WT.z_section','Home_BlueBar', 'WT.z_link','Shop_OrderPersonalizedStampedEnvelopes')"><span>Order Personalized Stamped <br />Envelopes &rsaquo;</span></a></li>
+													<li><a href="https://www.usps.com/buy-custom-postage.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: BuyCustomPostage', 'WT.z_section','Home_BlueBar', 'WT.z_link','Shop_BuyCustomPostage')">Buy Custom Postage &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/buy-gifts-and-fun-stuff.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: BuyGiftsFunStuff', 'WT.z_section','Home_BlueBar', 'WT.z_link','Shop_BuyGiftsFunStuff')">Buy Gifts &amp; Fun Stuff &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/buy-collectibles.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: BuyCollectibles', 'WT.z_section','Home_BlueBar', 'WT.z_link','Shop_BuyCollectibles')">Buy Collectibles &rsaquo;</a></li>
+												</ul>
+												<h4>Get Help To:</h4>
+												<ul class="secondary">													
+													<li><a href="https://www.usps.com/shop/money-orders.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: DomesticInternationalMoneyOrders', 'WT.z_section','Home_BlueBar', 'WT.z_link','Shop_DomesticInternationalMoneyOrders')"><span>Learn About Domestic &<br />International Money Orders &rsaquo;</span></a></li>																										
+													<li><a href="https://www.usps.com/shop/wire-money-internationally.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: SureMoney', 'WT.z_section','Home_BlueBar', 'WT.z_link','Shop_SureMoney')"><span>Learn About SureMoney&#174; <br />(DineroSeguro&#174;) &rsaquo;</span></a></li>
+													<li><a href="https://www.usps.com/shop/apply-for-a-passport.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: Passport', 'WT.z_section','Home_BlueBar', 'WT.z_link','Shop_Passport')">Apply for a Passport &rsaquo;</a></li>
+												</ul>
+											</div>
+											<div class="nav-dd-cap"></div>
+										</div>
+									</div>
+								</li>
+								
+								
+								
+								<li id="nav-business" class="">
+									<h3><a id="nav-5" href="https://www.usps.com/business/business-solutions.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions')" rel="0">Business Solutions</a></h3>
+									<div class="dropdown">
+										<div class="wrapper">
+											<div class="list-wrapper">
+												<ul>
+													<li><a href="https://www.usps.com/calculatebusinesspostage/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: CalculateBusinessPrices', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_CalculateBusinessPrices')">Calculate Business Prices &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/every-door-direct-mail.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: TryEveryDoorDirectMail', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_TryEveryDoorDirectMail')">Try Every Door Direct Mail&#174; &rsaquo;</a></li>
+												</ul>
+												<h4>Get Help To:</h4>
+												<ul class="secondary">
+													<li><a href="https://www.usps.com/business/why-choose-usps.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: SaveByShippingUSPS', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_SaveByShippingUSPS')">Save by Shipping with USPS &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/send-mail-for-business.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: AdvertiseWithMail', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_AdvertiseWithMail')">Advertise with Mail &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/service-chart.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: CompareBizServices', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_CompareBizServices')">Compare Business Services &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/add-extra-services.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: AddExtraServices', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_AddExtraServices')">Add Extra Services &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/find-payment-options.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: FindPaySolutions', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_FindPaySolutions')">Find Payment Options &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/ship-orders.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: ShipOrder', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_ShipOrder')">Ship Orders &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/ship-internationally.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: ShipIntntly', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_ShipIntntly')">Ship Internationally &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/receive-business-mail.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: ReceiveBizMail', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_ReceiveBizMail')">Receive Business Mail &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/get-training-learn-to-grow.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: GetTrainingLearntoGrow', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_GetTrainingLearntoGrow')">Get Training &amp; Learn To Grow &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/intelligent-mail.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: TrackWithIntelligentMail', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_TrackWithIntelligentMail')">Track with Intelligent Mail &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/manage-address-quality.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: ManageAddressQuality', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_ManageAddressQuality')">Manage Address Quality &rsaquo;</a></li>													
+													<li><a href="https://www.usps.com/business/learn-about-remittance-mail.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: LearnAboutRemittanceMail', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_LearnAboutRemittanceMail')">Learn About Remittance Mail &rsaquo;</a></li>
+													<li><a href="https://www.usps.com/business/expanded-access.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: LearnAboutExpandedAccess', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_LearnAboutExpandedAccess')">Learn About Expanded Access &rsaquo;</a></li>													
+													<li><a href="https://www.usps.com/business/customer-relations-info.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: FindCustomerRelationsInfo', 'WT.z_section','Home_BlueBar', 'WT.z_link','BizSolutions_FindCustomerRelationsInfo')">Find Customer Relations Info &rsaquo;</a></li>
+												</ul>
+											</div>
+											<div class="nav-dd-cap"></div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div id="nav-cap-right" class="nav-cap"></div>
+						
+							<!--
+								<a name="navigationEnd" id="navigationEnd" tabindex="0"></a>
+							-->
+						</div>					
+				
+				
+			</div>  
+		</div>
+	</div>
+</div>
+
+<form id="form-ship-to-address" name="ship-to-address" action="/go/ZipLookupResultsAction.action" method="post">
+
+<input type="hidden" name="resultMode" value="0" id="lookup-mode"/>
+<input type="hidden" name="postalCode" value="" id="postalCode"/>
+<input type="hidden" name="selectedCountry" value="" id="selectedCountry"/>
+<input type="hidden" name="displayDefaultOnly" value="false" id="displayDefaultOnly"/>
+<input type="hidden" name="displayIndustry" value="true" id="displayIndustry"/>
+<input type="hidden" name="deliverable" value="true" id="deliverable"/>
+
+<input type="hidden" name="loggedIn" value="false" id="loggedIn"/>
+    <div id="main">
+      <div id="main-repeat">
+        <div id="main-inner">
+          <div class="page-section clearfix">
+						<div id="top-wrap">
+							<div id="heading">
+								<h1>Look Up a ZIP Code<span class="tm">&trade;</span></h1>
+							</div>
+        <!-- start -->
+        <div id="faq-wrapper" style="width: 284px;">
+          <div id="faq-bucket" class="faq-bucket" style="width: 284px;">
+            <div class="cap-top-small" style="background-position: 0 -127px;"></div>
+            <div class="cap-middle" style="padding-left: 10px;">
+              <h4 class="section-label">Still Have Questions?</h4>
+              <p class="faq-link"><a href="http://www.usps.com/faqs/ziplookup-faqs.htm">Browse our FAQs&nbsp;&#8250;</a></p>
+            </div>
+            <div class="cap-bottom-small" style="background-position: 0 -133px;"></div>
+          </div>
+          <!-- end -->
+		</div>
+		</div>
+            <div id="main-content">
+                <div id="tabs" class="results">
+                  <ul class="clearfix">
+						<li><a id="link-byAddress" href="/go/ZipLookupAction!input.action?mode=0&amp;refresh=true">By Address</a></li>
+						<li><a id="link-byCompany" href="/go/ZipLookupAction!input.action?mode=1&amp;refresh=true">By Company</a></li>
+						<li><a id="link-CitiesByZip" href="/go/ZipLookupAction!input.action?mode=2&amp;refresh=true">Cities by ZIP Code&#153;</a></li>
+                  </ul>
+                  <span class="cap cap-right"></span><span class="cap cap-left"></span>
+                </div>
+                <div id="tab-content" class="cap-middle tab-panel zip-by-address">
+                  <div id="submitted">
+                  	
+						
+						
+					
+                  	
+                    
+                      
+                      
+                          
+	                          
+	                            <span id="find-another"><a id="form-ship-to-address_" href="/go/ZipLookupAction!input.action?mode=0&amp;refresh=true" class="findAnother">Look up another ZIP Code&#153; &rsaquo;</a></span><h3>You entered:</h3>
+	                            <p class="std-address">
+	                            
+	                            
+								
+	                            	<span class="address"><span class="address2">19 BAYHILL RD</span></span><br />
+	                            
+	                            
+	                            <span class="address"><span class="city">DELLWOOD </span> <span class="state">MN</span> 55110</span>
+	                          </p>
+                          
+                      
+                    
+                  </div>
+                    <div id="results-wrapper">
+                      
+                      
+                      
+                        
+                      
+                      
+                          
+                          
+                            
+                              
+                            
+
+
+
+<!-- Begin zip-lookup-result-container-single.jsp-->
+
+
+
+		 
+				<h4>Here's the full address, using standard abbreviations and formatting...</h4>
+				
+		
+		
+		
+				<div id="results">
+					
+					<input type="submit" id="shipSubmitBtn" value="Ship to This Address" class="hide"/>
+										 
+					
+					<input id="doCity" type="hidden" value="address.city"/>
+					<input id="doState" type="hidden" value="address.state"/>
+					<input id="doAdd1" type="hidden" value="address.address1"/>
+					<input id="doAdd2" type="hidden" value="address.address2"/>
+					<input id="doZipCode" type="hidden" value="address.postalCode"/>
+
+
+
+					<div class="buttons">
+						
+     				</div>
+					<span class="cap cap-right"></span><span class="cap cap-left"></span>
+				</div>
+				
+				<div id="results-content" class="cap-middle">
+					<div id="result-list" class="single">
+						<ul>
+							<li class="clearfix">
+								<div class="data"> 
+
+									<p class="std-address">
+										
+										
+										
+											<span class="address1 range">19 BAYHILL RD</span><br />
+										
+										
+										<span class="city range">DELLWOOD </span> <span class="state range">MN</span> <span class="zip" style="">55110</span><span class="hyphen">&#45;</span><span class="zip4">6178</span>
+										
+											<p class="show-details"><a href="#"  index="0" title="Reveal/hide mailing details table for this record">Show Mailing Industry Details</a></p>
+											<div class="details hide" index="0">
+												<dl class="details">
+													<dt>Carrier Route</dt>
+													<dd>C038 </dd>
+													<dt>County</dt>
+													<dd>WASHINGTON </dd>
+													<dt>Delivery Point Code</dt>
+													<dd>19</dd>
+													<dt>Check Digit</dt>
+													<dd>6</dd>
+													<dt>Commercial Mail Receiving Agency</dt>
+													<dd>N</dd>
+													<dt>LAC&trade;</dt>
+													<dd></dd>
+													<dt>eLOT&trade;</dt>
+													<dd>0136</dd>
+													<dt>eLOT Ascending/Descending Indicator</dt>
+													<dd>D</dd>
+													<dt>Record Type Code</dt>
+													<dd>S</dd>
+													<dt>PMB Designator</dt>
+													<dd></dd>
+													<dt>PMB Number</dt>
+													<dd></dd>
+													<dt>Default Flag</dt>
+													<dd></dd>
+													<dt>EWS Flag</dt>
+													<dd></dd>
+													<dt>DPV Confirmation Indicator</dt>
+													<dd>Y</dd>
+												</dl>
+											</div>
+										
+									</p>
+
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="result-bottom" class="result-bottom">
+					<div class="hide"><div class="buttons">
+						
+					</div></div>
+				</div>
+<!-- End zip-lookup-result-container-single.jsp-->
+
+                          
+                          
+                      
+                   
+                      
+                    </div>
+                </div>
+                <div id="bottom-cap" class="cap-bottom-medium"></div>
+            </div>
+            
+            <div id="main-side-content">
+              <div id="side-panel-promos">  
+                    
+                      <div id="promos">
+                        <ul class="clearfix">
+                            
+                          <li>
+                            
+
+
+
+
+
+
+	<script type="text/javascript"><!--
+		var now = new Date();
+		var random = now.getTime();
+			
+			var site = "https://adserv.usps.com";
+			
+			
+			var targetA = "/site=USPS.COM/area=GLOBAL.SECURE/POSITION=POSITION1/aamsz=234x177";
+			document.write('<scr' + 'ipt src="' + site + '/jserver/acc_random=' + random + targetA + '">' + '</scr' + 'ipt>');
+		
+	// --></script>
+
+
+                          </li>
+                        </ul>
+                      </div>
+                    
+                    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</form>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Begin Footer -->
+		<div id="footer">
+			<div class="page-section">
+				<span class="hide-fromsighted">Begin Footer</span>
+				<ul id="footer-links" class="clearfix">
+					<li class="list">
+						<h3>LEGAL</h3>
+						<ul>
+							<li><a href="http://about.usps.com/who-we-are/privacy-policy/privacy-policy-highlights.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: PrivacyPolicy', 'WT.z_section','Home_Footer', 'WT.z_link','PrivacyPolicy')">Privacy Policy &rsaquo;</a></li>
+							<li><a href="http://about.usps.com/termsofuse.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: TermsofUse', 'WT.z_section','Home_Footer', 'WT.z_link','TermsofUse')">Terms of Use &rsaquo;</a></li>
+							<li><a href="http://about.usps.com/who-we-are/foia/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: FOIA', 'WT.z_section','Home_Footer', 'WT.z_link','FOIA')">FOIA &rsaquo;</a></li>
+							<li><a href="http://about.usps.com/who-we-are/no-fear-act/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: NoFEARActEEOData', 'WT.z_section','Home_Footer', 'WT.z_link','NoFEARActEEOData')">No FEAR Act EEO Data &rsaquo;</a></li>
+						</ul>
+					</li>
+					<li class="list">
+						<h3>ON USPS.COM</h3>
+						<ul>
+							<li><a href="https://www.usps.com/gov-services/gov-services.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: GovtServices', 'WT.z_section','Home_Footer', 'WT.z_link','GovtServices')">Government Services &rsaquo;</a></li>
+							<li><a href="https://www.usps.com/shop" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: BuyStampsShop', 'WT.z_section','Home_Footer', 'WT.z_link','BuyStampsShop')">Buy Stamps &amp; Shop &rsaquo;</a></li>
+							<li><a href="https://www.usps.com/shipping/label.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: PrintLabelwithPostage', 'WT.z_section','Home_Footer', 'WT.z_link','PrintLabelwithPostage')">Print a Label with Postage &rsaquo;</a></li>
+							<li><a href="https://www.usps.com/customer-service/customer-service.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: CustomerService', 'WT.z_section','Home_Footer', 'WT.z_link','CustomerService')">Customer Service &rsaquo;</a></li>
+							<li><a href="https://www.usps.com/globals/site-index.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: SiteIndex', 'WT.z_section','Home_Footer', 'WT.z_link','SiteIndex')">Site Index &rsaquo;</a></li>
+						</ul>
+					</li>
+					<li class="list lspace-mid">
+						<h3>ON ABOUT.USPS.COM</h3>
+						<ul>
+							<li><a href="http://about.usps.com" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: AboutUSPSHome', 'WT.z_section','Home_Footer', 'WT.z_link','AboutUSPSHome')">About USPS Home &rsaquo;</a></li>
+							<li><a href="http://about.usps.com/news/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: Newsroom', 'WT.z_section','Home_Footer', 'WT.z_link','Newsroom')">Newsroom &rsaquo;</a></li>
+							<li><a href="http://about.usps.com/news/service-alerts/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: MailServiceUpdates', 'WT.z_section','Home_Footer', 'WT.z_link','MailServiceUpdates')">Mail Service Updates &rsaquo;</a></li>							
+							<li><a href="http://about.usps.com/forms-publications/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: FormsandPublications', 'WT.z_section','Home_Footer', 'WT.z_link','FormsandPublications')">Forms &amp; Publications &rsaquo;</a></li>
+							<li><a href="http://about.usps.com/careers/welcome.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: Careers', 'WT.z_section','Home_Footer', 'WT.z_link','Careers')">Careers &rsaquo;</a></li>
+						</ul>
+					</li>
+					<li class="list last lspace-last">
+						<h3>OTHER USPS SITES</h3>
+						<ul>
+							<li><a href="https://gateway.usps.com/bcg/login.htm" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: BizCustGateway', 'WT.z_section','Home_Footer', 'WT.z_link','BizCustGateway')">Business Customer Gateway &rsaquo;</a></li>
+							<li><a href="https://postalinspectors.uspis.gov/" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: PostalInspectors', 'WT.z_section','Home_Footer', 'WT.z_link','PostalInspectors')">Postal Inspectors &rsaquo;</a></li>
+							<li><a href="http://www.uspsoig.gov/" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: InspectorGeneral', 'WT.z_section','Home_Footer', 'WT.z_link','InspectorGeneral')">Inspector General &rsaquo;</a></li>
+							<li><a href="http://pe.usps.com/" onclick="dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: PostalExplorer', 'WT.z_section','Home_Footer', 'WT.z_link','PostalExplorer')">Postal Explorer &rsaquo;</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div id="footer-copyright">
+					Copyright&copy; Thu Oct 25 08:43:41 CDT 2012 USPS. All Rights Reserved. 
+				</div>
+				<div id="hoststring" class="hide">Build:  HOST : eagnmncom0602.usps.com</div>
+				<span class="hide-fromsighted">End Footer</span>
+			</div>
+		</div>
+		<!-- End Footer -->
+  </div>
+  <div id="modals">
+	<div id="lightbox-background"></div>
+	<div id="modal-positioner">
+		<div class="hide-fromsighted-v2 force-modal-close" tabindex="0">&nbsp;</div>
+		<div id="modal-window">
+			<div id="modal-window-inner">
+				<div id="modal-insider"></div>
+				<div id="modal-corner-tl"></div>
+				<div id="modal-corner-tr"></div>
+				<div id="modal-corner-bl"></div>
+				<div id="modal-corner-br"></div>
+				<div id="modal-repeat-left"></div>
+				<div id="modal-repeat-right"></div>
+				<div id="modal-repeat-top"></div>
+				<div id="modal-repeat-bottom"></div>
+			</div>
+		</div>
+		<div id="modal-header"></div>
+		<div id="modal-track" class="modal"></div>
+		<div id="modal-location" class="modal"></div>
+		<div id="modal-price" class="modal"></div>
+		<div id="modal-zip" class="modal"></div>
+		<div id="modal-change-redelivery" class="modal"></div>
+		<div id="modal-custom" class="modal"></div>
+		<div id="modal-product-cart" class="modal"></div>
+		<div id="modal-product-cart-base" class="modal">
+			<div id="product-cart-item-container">
+				<div class="clearfix">
+					<div class="left" id="product-cart-item-img">
+					</div>
+					<div class="left" id="product-cart-item-dtl">
+					</div>
+				</div>
+			</div>
+			<div id="product-cart-item-container2">
+				<h5>Order this with:</h5>
+				<div class="clearfix">
+					<div class="left" id="product-cart-item2-img">
+					</div>
+					<div class="left" id="product-cart-item2-dtl">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper"><a name="btn-modal-close" id="btn-modal-close" href="#" title="Click to close this modal window.">Close Modal Window</a></div>
+		<div class="hide-fromsighted-v2 force-modal-close" tabindex="0">&nbsp;</div>
+	</div>
+</div>
+	
+
+
+
+   
+  
+
+
+
+ 
+<!-- Start Scripts -->
+<script type="text/javascript">
+var USPS={};
+
+USPS.Tools={};
+
+USPS.Component={};
+
+USPS.Component.componentName='ziplookup';
+USPS.Component.pageval='0.0';
+USPS.Component.surveyUrl='';
+USPS.Component.surveyjob='';
+USPS.Component.freq='0.0';
+USPS.Component.surveyTitle='';
+
+     var djConfig = {
+        parseOnLoad: true,
+		cacheBust: new Date().getTime(),
+		modulePaths: {"usps": "/go/js/modules/usps" ,"plugd" : "/external/scripts/plugd"},
+		contextRoot : "/go",
+		debugAtAllCosts: false
+		};
+</script>	
+
+
+
+<script src="/external/scripts/dojobuild/dojo/dojo.js" type="text/javascript"></script>
+
+
+<script src="/go/js/profiles/ziplookup.js" type="text/javascript"></script>
+
+</script>
+
+<script src="https://tools.usps.com/go/pages/common/quicktools-api.jsp" type="text/javascript"></script>
+
+
+
+
+	<script type="text/javascript">
+		dojo.require("usps.login.user");
+		USPS.User=new usps.login.user();
+		USPS.User.initialize();
+		var isLoggedIn = false;
+		USPS.User.isLoggedIn = isLoggedIn;
+		
+	</script>
+
+
+<script>
+dojo.require("usps.utils.Hoverable");
+dojo.require("usps.nav.navigation");
+dojo.require("usps.header.headerbar");
+dojo.require("usps.widget.Survey");
+</script>
+
+
+<!-- End Scripts -->
+	
+		
+	<!-- Copy paste and add this just above </body>-->
+	
+	<!-- START OF SmartSource Data Collector TAG -->
+	<!-- Copyright (c) 1996-2011 WebTrends Inc.  All rights reserved. -->
+	<!-- Version: 9.3.0 -->
+	<!-- Tag Builder Version: 3.1  -->
+	<!-- Created: 3/28/2011 6:24:05 PM -->
+	
+	<script src="/go/js/webtrends.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+	<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+	<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+	<!-- ----------------------------------------------------------------------------------- -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var _tag=new WebTrends();
+	_tag.dcsGetId();
+	//]]>
+	</script>
+	<script type="text/javascript">
+	//<![CDATA[
+	_tag.dcsCustom=function(){
+	// Add custom parameters here.
+	//_tag.DCSext.param_name=param_value;
+	}
+	_tag.dcsCollect();
+	//]]>
+	</script>
+	<noscript>
+	<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://sdc.usps.com/dcs731qdj000004f27giixw3q_2i4w/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.3.0&amp;WT.dcssip=usps.com"/></div>
+	</noscript>
+	<!-- END OF SmartSource Data Collector TAG -->
+
+<!--End copy paste-->
+<!-- END OF SmartSource Data Collector TAG -->
+
+	
+  <script src="/go/js/usps-validation.js" type="text/javascript"></script>
+ <script src="/go/js/usps-tools-validation.js" type="text/javascript"></script>
+  <script src="/go/js/zip-code-lookup.js" type="text/javascript"></script>
+
+</body>
+</html>
+
