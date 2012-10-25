@@ -1,13 +1,6 @@
+#!/usr/bin/env python
 '''
 USPS Address Lookup client
-
-How to use
-    try:
-        address = check_and_format(address)
-    except ValueError, msg:
-        print dumps({"status": str(msg)})
-    else:
-        print do_request(address)
 '''
 
 from urllib2 import urlopen, URLError
@@ -17,8 +10,39 @@ from lxml.html import fromstring
 ADDRESS_LOOKUP_URL = 'https://tools.usps.com/go/ZipLookupResultsAction!input.action?'
 EXPECTED_KEYS = {'address1', 'address2', 'city', 'state', 'zip'}
 
-def _parse(web_page_html):
-    return []
+def _parse(text):
+    'Give html text from the web page, extract the list of addresses.'
+
+    if '''<li class="error">Unfortunately, this address wasn't found.</li>''' in text and \
+        '''<li class="error">Please double-check it and try again.</li>''' in text:
+        return []
+
+    elif 'The address you provided is not recognized by the US Postal Service as an address we serve. Mail sent to this address may be returned.' in text:
+        return []
+
+    resultstart = '<div id="results-content" class="cap-middle">'
+    text = resultstart + text.split(resultstart)[1].split('<div id="result-bottom" class="result-bottom">')[0].replace('&trade;', '')
+    html = fromstring(text)
+    out = []
+    for std_address in html.cssselect('#result-list p.std-address'):
+        spans = std_address.xpath('span[@class != "address1 range" and @class != "hyphen"]')
+        outaddress = {unicode(span.attrib['class'].replace(' range', '')): unicode(span.text) for span in spans}
+
+        addresses1 = std_address.xpath('span[@class="address1 range"]')
+        outaddress[u'address1'] = addresses1[-1].text
+        if len(addresses1) == 2:
+            outaddress[u'name'] = addresses1[0].text
+
+        if outaddress[u'zip4'] == 'None':
+            outaddress[u'zip4'] = None
+
+        # Strip padding
+        for k, v in outaddress.items():
+            outaddress[k] = v.strip()
+
+        out.append(outaddress)
+
+    return out
 
 def contains_address(db, address):
     params = [address[u'Street Address'], address[u'Hash'], address[u'City'], address[u'State'], address[u'Zip Code']]
@@ -84,28 +108,5 @@ def do_request(address):
             text = handle.read()
             break
 
-    if '''<li class="error">Unfortunately, this address wasn't found.</li>''' in text and \
-        '''<li class="error">Please double-check it and try again.</li>''' in text:
-        output['status'] = 'no match'
-    elif 'The address you provided is not recognized by the US Postal Service as an address we serve. Mail sent to this address may be returned.' in text:
-        # https://tools.usps.com/go/ZipLookupResultsAction!input.action?resultMode=0&companyName=&address1=26130+Birch+AVE&address2=&city=Nisswa&state=MN&urbanCode=&postalCode=&zip=56468
-        output['status'] = 'not recognized'
-    else:
-        output['status'] = 'okay'
-        resultstart = '<div id="results-content" class="cap-middle">'
-        text = resultstart + text.split(resultstart)[1].split('<div id="result-bottom" class="result-bottom">')[0].replace('&trade;', '')
-        html = fromstring(text)
-        for std_address in html.cssselect('#result-list p.std-address'):
-            spans = std_address.xpath('span[@class != "address1 range" and @class != "hyphen"]')
-            outaddress = {span.attrib['class'].replace(' range', ''): span.text for span in spans}
-
-            addresses1 = std_address.xpath('span[@class="address1 range"]')
-            outaddress['address1'] = addresses1[-1].text
-            if len(addresses1) == 2:
-                outaddress['name'] = addresses1[0].text
-
-            if outaddress['zip4'] == 'None':
-                outaddress['zip4'] = None
-            output['addresses'].append(outaddress)
 
     return output
