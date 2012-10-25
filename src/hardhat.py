@@ -7,13 +7,14 @@ from urllib import urlretrieve
 from urlparse import urljoin
 from lxml.html import fromstring
 
-def get(url):
+def get(url, cachedir = '.'):
     'Download a web file, or load the version from disk.'
-    tmp = re.sub(r'^https?://', '', url).split('/')
-    tmp = filter(None, tmp)
-    local_file = os.path.join(*tmp).split('/')))
-    local_dir = os.path.join(*tmp)[:-1])
-    del(tmp)
+    tmp1 = re.sub(r'^https?://', '', url)
+    tmp2 = [cachedir] + filter(None, tmp1.split('/'))
+    local_file = os.path.join(*tmp2)
+    local_dir = os.path.join(*tmp2[:-1])
+    del(tmp1)
+    del(tmp2)
 
     # mkdir -p
     if not os.path.exists(local_dir):
