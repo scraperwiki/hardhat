@@ -42,3 +42,8 @@ class TestParse:
     def test_not_recognized(self):
         self._('ZipLookupResultsAction!input.action?resultMode=0&companyName=&address1=26130+Birch+AVE&address2=&city=Ni%0Asswa&state=MN&urbanCode=&postalCode=&zip=56468', [])
 
+
+def test_white_house():
+    observed = usps.lookup(u"1600 PENNSYLVANIA AVE NW", u'', u'Washington', u'DC', u"20500")
+    n.assert_equal(type(observed), list)
+    n.assert_equal(len(observed), 10)
