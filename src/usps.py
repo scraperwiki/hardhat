@@ -17,6 +17,9 @@ from lxml.html import fromstring
 ADDRESS_LOOKUP_URL = 'https://tools.usps.com/go/ZipLookupResultsAction!input.action?'
 EXPECTED_KEYS = {'address1', 'address2', 'city', 'state', 'zip'}
 
+def _parse(web_page_html):
+    return []
+
 def contains_address(db, address):
     params = [address[u'Street Address'], address[u'Hash'], address[u'City'], address[u'State'], address[u'Zip Code']]
     count = db.execute('''
