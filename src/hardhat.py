@@ -66,3 +66,10 @@ def digits(text):
 
 # Postal codes
 # http://stackoverflow.com/questions/578406/what-is-the-ultimate-postal-code-and-zip-regex
+
+def chrome_headers(raw_headers):
+    '''
+Convert Chrome headers to Python's Requests dictionary.
+https://gist.github.com/3424623
+    '''
+    return dict([[h.partition(':')[0], h.partition(':')[2]] for h in raw_headers.split('\n')])
