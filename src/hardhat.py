@@ -62,7 +62,7 @@ del(_one_selector_func)
 
 def digits(text):
     'Extract the digits from the text.'
-    return filter(lambda letter: letter in '12534567890', unicode(text))
+    return filter(lambda letter: letter in '12534567890', text)
 
 # Postal codes
 # http://stackoverflow.com/questions/578406/what-is-the-ultimate-postal-code-and-zip-regex
