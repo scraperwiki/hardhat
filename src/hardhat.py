@@ -10,7 +10,7 @@ from urllib import urlretrieve
 from urlparse import urljoin
 
 # HTML
-from lxml.html import fromstring
+from lxml.html import fromstring, tostring
 
 def get(url, cachedir = '.'):
     'Download a web file, or load the version from disk.'
@@ -73,3 +73,63 @@ Convert Chrome headers to Python's Requests dictionary.
 https://gist.github.com/3424623
     '''
     return dict([[h.partition(':')[0], h.partition(':')[2]] for h in raw_headers.split('\n')])
+
+def options(parentnode,ignore_first=False,ignore_value=None,ignore_text=None,textname="text",valuename="value"):
+    """
+    Provide a list of option nodes. Receive parent of values and text()s.
+    The node list can be an lxml nodes or a text representation.
+    In either case, all child option tags will be used.
+ 
+    You may specify that the first node, the node with a particular value or the node with a particular text be ignored.
+    """
+    if type(parentnode)==str:
+        parentnode=fromstring(parentnode)
+ 
+    if ignore_first!=None:
+        nodes=parentnode.xpath('option[position()>1]')
+    elif ignore_value!=None:
+        nodes=parentnode.xpath('option[@value!="%s"]'%ignore_value)
+    elif ignore_text!=None:
+        nodes=parentnode.xpath('option[text()!="%s"]'%ignore_text)
+    else:
+        nodes=parentnode.xpath('option')
+ 
+    return [{textname:node.text,valuename:node.xpath('attribute::value')[0]} for node in nodes]
+
+def get_select_value(node):
+    # node is an LXML element (SELECT tag)
+    try:
+        return node.cssselect("option[selected='selected']")[0].text
+    except IndexError:
+        return node.cssselect("option")[0].text
+
+def htmltable2matrix(tablehtml,cell_xpath=None):
+    """
+    Takes an html table or an lxml tree whose current node is the table of interest
+
+    Optionally takes an xpath to be applied at the cell level
+    """
+    if type(tablehtml) in [str, unicode]:
+        tablehtml=fromstring(tablehtml)
+    trs=tablehtml.cssselect('tr')
+    tablematrix=[]
+    for tr in trs:
+        tablematrix_row=[]
+        tds=tr.cssselect('td')
+        for td in tds:
+            #If it has a colspan attribute, repeat that many times
+            if 'colspan' in [key.lower() for key in td.attrib.keys()]:
+                repeats=int(td.attrib['colspan'])
+            else:
+                repeats=1
+
+            for r in range(repeats):
+                if cell_xpath==None:
+                    cell=td.text_content()
+                else:
+                    cell=''.join(td.xpath(cell_xpath))
+                tablematrix_row.append(cell)
+
+        tablematrix.append(tablematrix_row)
+
+    return tablematrix
