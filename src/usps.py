@@ -60,8 +60,7 @@ def lookup(address1, address2, city, state, zipcode):
 
     try:
         handle = urlopen(url)
+        return _parse(handle.read())
     except:
         print url
         raise
-
-    return _parse(handle.read())
