@@ -36,8 +36,8 @@ class TestParse:
             u'zip4': u'6178',
         }])
 
-#   def test_not_found(self):
-        
+    def test_not_found(self):
+        self._('ZipLookupResultsAction!input.action?city=GOLDEN+VALLEY&state=MN&postalCode=&urbanCode=&companyName=&resultMode=0&address1=5307+CIR+DOWN&address2=203&zipcode=55416', [])
 
     def test_not_recognized(self):
         self._('ZipLookupResultsAction!input.action?resultMode=0&companyName=&address1=26130+Birch+AVE&address2=&city=Ni%0Asswa&state=MN&urbanCode=&postalCode=&zip=56468', [])
