@@ -144,7 +144,7 @@ def cache(key, func, cache_dir = os.path.expanduser(os.path.join('~', '.cache'))
     Load and cache it from the function if it isn\'t already cached.
     '''
 
-    cache_path = os.path.join(cache_dir, key)
+    cache_path = os.path.join(cache_dir, key + '.p')
 
     if os.path.exists(cache_path):
         cache_file = open(cache_path, 'rb')
