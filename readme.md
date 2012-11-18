@@ -17,6 +17,8 @@ Functions
 * `digits(text)`: Extract the digits from some text.
 * `cache(key, func)`: Look up the key in the cache. If it exists, load it from
     there. Otherwise, cache the output of the function and return it.
+* `read_csv`: ?
+* `usps`: ?
 
 ## Running tests
 
