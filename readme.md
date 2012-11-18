@@ -15,6 +15,8 @@ Functions
   * `HtmlElement.one_cssselect` Select one node based on a css selector;
       return an error if multiple or no nodes match this xpath.
 * `digits(text)`: Extract the digits from some text.
+* `cache(key, func)`: Look up the key in the cache. If it exists, load it from
+    there. Otherwise, cache the output of the function and return it.
 
 ## Running tests
 
