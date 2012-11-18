@@ -4,6 +4,9 @@ import re
 from time import sleep
 from random import normalvariate
 
+# Cache
+import pickle
+
 # HTTP
 from urllib2 import urlopen
 from urllib import urlretrieve
@@ -47,11 +50,11 @@ from lxml.html import fromstring, HtmlElement
 def _one_selector_func(selector_type):
     def _one_selector(self, selector):
         results = getattr(self, selector_type)(selector)
- 
+
         if len(results) != 1:
             msg = 'I expected one match for %s, but I found %d.'
             raise ValueError(msg % (selector, len(results)))
- 
+
         return results[0]
     return _one_selector
 
@@ -79,12 +82,12 @@ def options(parentnode,ignore_first=False,ignore_value=None,ignore_text=None,tex
     Provide a list of option nodes. Receive parent of values and text()s.
     The node list can be an lxml nodes or a text representation.
     In either case, all child option tags will be used.
- 
+
     You may specify that the first node, the node with a particular value or the node with a particular text be ignored.
     """
     if type(parentnode)==str:
         parentnode=fromstring(parentnode)
- 
+
     if ignore_first!=None:
         nodes=parentnode.xpath('option[position()>1]')
     elif ignore_value!=None:
@@ -93,7 +96,7 @@ def options(parentnode,ignore_first=False,ignore_value=None,ignore_text=None,tex
         nodes=parentnode.xpath('option[text()!="%s"]'%ignore_text)
     else:
         nodes=parentnode.xpath('option')
- 
+
     return [{textname:node.text,valuename:node.xpath('attribute::value')[0]} for node in nodes]
 
 def get_select_value(node):
@@ -133,3 +136,28 @@ def htmltable2matrix(tablehtml,cell_xpath=None):
         tablematrix.append(tablematrix_row)
 
     return tablematrix
+
+
+def cache(key, func, cache_dir = os.path.expanduser(os.path.join('~', '.cache'))):
+    '''
+    Check if a value is in the cache.
+    Load and cache it from the function if it isn\'t already cached.
+    '''
+
+    cache_path = os.path.join(cache_dir, key)
+
+    if os.path.exists(cache_path):
+        cache_file = open(cache_path, 'rb')
+        data = pickle.load(cache_file)
+
+    else:
+        # Load the data
+        data = func()
+
+        # Cache
+        cache_file = open(cache_path, 'wb')
+        pickle.dump(data, cache_file)
+
+    cache_file.close()
+
+    return data
