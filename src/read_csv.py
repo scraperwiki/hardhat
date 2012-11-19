@@ -7,9 +7,9 @@ except ImportError:
 def csv_to_dict(csvfile,*args,**kwargs):
     "Turn a csv file into a list of dicts"
     r= csv.reader(csvfile,*args,**kwargs)
-    header = [keyify(key) for key in r.next()]
-    d = [dict(zip(header,row)) for row in r]
-    return d
+    header = [key for key in r.next()]
+    data = [dict(zip(header,row)) for row in r]
+    return data
 
 def _convert_na_string(data, na_string):
     'Convert the NA string in a list of dicts.'
@@ -28,10 +28,10 @@ def read_csv(file_or_url, na_strings = "NA"):
     else:
         h = urlopen(file_or_url)
 
-    d = csv_to_dict(h)
+    data = csv_to_dict(h)
 
     # Convert NAs to None
     if na_strings != None:
-        d = _convert_na_string(data, na_strings)
+        data = _convert_na_string(data, na_strings)
 
-    return d
+    return data
