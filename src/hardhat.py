@@ -142,23 +142,26 @@ def save(key, value, cache_dir = os.path.expanduser(os.path.join('~', '.cache'))
     'Save an object to the cache_dir.'
     cache_path = os.path.join(cache_dir, key + '.p')
     cache_file = open(cache_path, 'wb')
-    pickle.dump(data, cache_file)
+    pickle.dump(value, cache_file)
     cache_file.close()
 
 def load(key, cache_dir = os.path.expanduser(os.path.join('~', '.cache'))):
     'Load an object from the cache_dir.'
+    cache_path = os.path.join(cache_dir, key + '.p')
     if os.path.exists(cache_path):
         cache_file = open(cache_path, 'rb')
         data = pickle.load(cache_file)
         cache_file.close()
     else:
-        raise KeyError('key')
+        raise KeyError(key)
+    return data
 
 def cache(key, func, cache_dir = os.path.expanduser(os.path.join('~', '.cache'))):
     '''
     Check if a value is in the cache.
     Load and cache it from the function if it isn\'t already cached.
     '''
+    cache_path = os.path.join(cache_dir, key + '.p')
 
     if os.path.exists(cache_path):
         data = load(key, cache_dir = cache_dir)
