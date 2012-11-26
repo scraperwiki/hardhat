@@ -19,6 +19,7 @@ Functions
     there. Otherwise, cache the output of the function and return it.
 * `read_csv`: ?
 * `usps`: ?
+* `dateparse`: parse dates with dateutil, but raise exceptions if incomplete date.
 
 ## Running tests
 
