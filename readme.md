@@ -2,8 +2,7 @@ Hard Hat
 ========
 These are helpers for general data cleaning and for some specific webby cleaning stuff.
 
-Functions
-
+### In `hardhat.py`:
 * `get(url)`: Make a get request for a url and cache it,
     or load it from a cache if it has already been downloaded.
 * `randomsleep(mean = 8, sd = 4)`: Sleep for a normal-random
@@ -17,9 +16,12 @@ Functions
 * `digits(text)`: Extract the digits from some text.
 * `cache(key, func)`: Look up the key in the cache. If it exists, load it from
     there. Otherwise, cache the output of the function and return it.
+
+### In other scripts
 * `read_csv`: Like R's read.csv; produces a list of dicts from CSV.
 * `usps`: Looks up address using usps.com's ZIP code lookup.
 * `dateparse`: parse dates with dateutil, but raise exceptions if incomplete date.
+* `goodstub`: 
 
 ## Running tests
 
